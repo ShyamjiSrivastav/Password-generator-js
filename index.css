@@ -1,0 +1,30 @@
+*{
+    overflow: hidden;
+}
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    font-family: sans-serif;
+    font-size: 2rem;
+    color: green;
+}
+
+#sri{
+    font-size: 20px;
+    border-radius: 20px;
+    color: blue;
+}
+
+#btns{
+    font-size: 1.02em;
+    background-color: greenyellow;
+    border-radius: 10px;
+}
+
