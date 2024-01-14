@@ -45,3 +45,17 @@ function password(){
     n=n+w;
     content.value=n;
 }
+
+async function copyContent(){  
+    try{
+        content.select();
+        content.setSelectionRange(0,99999);
+        navigator.clipboard.writeText(content.value);
+        alert("Copied");
+    }
+    catch(e){
+        alert("Failed");
+    }
+}
+
+

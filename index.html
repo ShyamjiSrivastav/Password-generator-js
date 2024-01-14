@@ -13,7 +13,12 @@
             Password Generator
         </p>
 
-        <input type="text" placeholder="password" id="sri">
+        <div class="field">
+            <input type="text" placeholder="password" id="sri">
+            <button onclick="copyContent()" id="btns1">
+                <img src="copy.png" alt="" id="copy-img">
+            </button>
+        </div>
         <br>
 
         <button id="btns" onclick="password()">

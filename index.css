@@ -28,3 +28,20 @@
     border-radius: 10px;
 }
 
+.field{
+    display: flex;
+}
+
+#copy-img{
+    width: 55px;
+}
+
+#btns1{
+    border: none;
+    border-radius: 50%;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    
+}
+
